@@ -27,7 +27,7 @@ jobs:
         pip install -r ./Projeto-To-Do-Django/requirements.txt
     - name: Run Tests'
       env:
-        SECRET_KEY: 69tgugtg%^fgJO&*&
+        SECRET_KEY: django-insecure-t9=fx%z^1%)*@kpulrjgiah19#5k*&yy$^jexyxjxbpks#6rdv
         DJANGO_ALLOWED_HOSTS: localhost 127.0.0.1 [::1]
         DEBUG_MODE: False
         TIME_ZONE: UTC
